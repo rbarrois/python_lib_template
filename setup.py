@@ -34,13 +34,13 @@ setup(
     url="http://github.com/rbarrois/python_lib_template",
     download_url="http://pypi.python.org/pypi/python_lib_template/",
     packages=find_packages(),
-    install_requires=[
+    setup_requires=[
         'distribute',
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
+        "License :: Public Domain",
         "Topic :: Software Development :: Libraries :: Python Modules",
         'Operating System :: OS Independent',
         'Programming Language :: Python',
